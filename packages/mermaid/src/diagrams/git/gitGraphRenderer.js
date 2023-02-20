@@ -384,7 +384,7 @@ const drawArrow = (svg, commit1, commit2, allCommits) => {
       // Figure out the color of the arrow,arrows going down take the color from the destination branch
       colorClassNum = branchPos[commit2.branch].index;
 
-      lineDef = `M ${p1.x} ${p1.y} L ${p1.x} ${p2.y - radius} ${arc} ${p1.x + offset} ${p2.y} L ${
+      lineDef = `M ${p1.x} ${p1.y} ${arc} ${p1.x + offset} ${p1.y + radius} L ${p1.x + offset} ${p2.y - radius} ${arc} ${p1.x + offset + offset} ${p2.y} L ${
         p2.x
       } ${p2.y}`;
     }
