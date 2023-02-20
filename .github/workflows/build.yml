@@ -44,8 +44,8 @@ jobs:
           name: mermaid-build
           path: packages/mermaid/dist
 
-      - name: Upload Mermaid Mindmap Build as Artifact
-        uses: actions/upload-artifact@v3
-        with:
-          name: mermaid-mindmap-build
-          path: packages/mermaid-mindmap/dist
+#      - name: Upload Mermaid Mindmap Build as Artifact
+#        uses: actions/upload-artifact@v3
+#        with:
+#          name: mermaid-mindmap-build
+#          path: packages/mermaid-mindmap/dist
